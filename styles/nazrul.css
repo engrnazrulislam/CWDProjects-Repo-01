@@ -1,26 +1,74 @@
 *{
     margin:0;
 }
+/* Header Style */
 .main-header{
     background-color: lightgray;
     background-image:url(../images/header-img.jpg);
     height:200px;
     width:100%;
-    background-repeat: repeat-x;
-    background-position: center;
+    background-size: 80%;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.nazrul-img{
+    width:100px;
+    position:absolute;
+    margin-left:81%;
+    margin-top:20px;
 }
 .main-title{
     text-align: center;
+    padding-top:20px;
     text-shadow: 2px 5px 5px black;
     color: white;
 }
-.menu-bar{
+.main-paragraph{
+    text-align:center;
+    margin-top:10px;
+    color:skyblue;
+}
+.main-menu-bar{
     display: flex;
-    justify-content:space-around;
-    list-style: none;
+    list-style-type: none;
     color:white;
     font-weight: 700;
-    margin-top:140px;
-    margin-left: 50px;
-    margin-right: 100px;
+    margin-top:4%;
+    margin-left: 140px;
+}
+.main-menu{
+    margin-right:40px;
+    padding:0 20px;
+}
+.main-menu:hover{
+    background-color:lightblue;
+}
+.sub-menu{
+    list-style-type:none;
+}
+.main-menu-anchor{
+    text-decoration: none;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+}
+nav li .sub-menu-dropdown{
+    display:none;
+    padding: 10px;
+    position: absolute;
+    background-color: lightgray;
+}
+.sub-menu-anchor{
+    text-decoration: none;
+    color:black;
+}
+nav li:hover .sub-menu-dropdown{
+    display: block;
+}
+/* Main Body Styles */
+.main-body{
+    background-color:lightgray;
+    background-size:100%;
+}
+section{
+    text-align:center;
 }
